@@ -1,3 +1,10 @@
 remove.packages('rticles')
 devtools::install_github('nuest/rticles', ref = 'copernicus')
 install.packages('here')
+
+tinytex::tlmgr_install("babel-english")
+tinytex::tlmgr_install("tex4ht")
+tinytex::tlmgr_install("symbol")
+tinytex::tlmgr_install("times")
+tinytex::tlmgr_install("lipsum")
+tinytex::tlmgr_install("algorithms")
