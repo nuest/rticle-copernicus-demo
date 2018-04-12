@@ -1,6 +1,4 @@
-
 MyArticle/MyArticle\.pagelist
-
 *.pdf
 
-*.tex
+MyArticle/MyArticle\.tex
