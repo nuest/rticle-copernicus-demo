@@ -4,6 +4,7 @@ article:
   script:
     - Rscript -e "remove.packages('rticles')" -e "devtools::install_github('nuest/rticles', ref = 'copernicus')"
     - Rscript -e "rmarkdown::render('MyArticle/MyArticle.Rmd')"
+    - Rscript -e "rmarkdown::render('MyArticle/MyArticle.Rmd')"
   artifacts:
     paths:
       - MyArticle

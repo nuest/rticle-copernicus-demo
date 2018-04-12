@@ -62,8 +62,6 @@ output:
 
 Introduction text goes here.
 
-Deadpool is great!
-
 You can change the name of the section if neccessary using `\introduction[modified heading]`.
 
 The following settings can or must be configured in the header of this file and are bespoke for Copernicus manuscripts:
